@@ -1,0 +1,62 @@
+
+*, *::after, *::before, *:after, *:before {  /* border-box el ancho es todo lo que está dentro */
+    box-sizing: border-box;
+}
+
+
+/* General */
+.clearfix { clear: both; }
+
+h2, h3 {font-family: 'Economica', sans-serif; text-align: center;}
+h1 {font-family: 'Rye', cursive;font-weight: 700; text-transform: uppercase; font-size: 4em;text-align: center;}
+h2 {font-weight: 700; text-transform: uppercase; font-size: 2em; border-bottom: solid 1px;}
+
+/* Ramas */
+.ramas_lab {width: 100%;}
+.ramasizquierda{width: 28%; margin: 1em; float: left; }
+.ramasizquierda img {width: 100%}
+.ramasizquierda h2 {text-align: center;}
+.ramasderecha{width: 28%;margin: 1em;float: right;}
+.ramasderecha img {width: 100%}
+.ramasderecha h2 {text-align: center;}
+.ramascentro{display: block;margin-left: auto;margin-right: auto;}
+.ramascentro img {width: 28%}
+.ramascentro h2 {text-align: center;}
+.ramas {width: 28%; margin: 1em; margin-left: 5%;margin-right: 5%; float: left;}
+.ramas img {width: 100%}
+.ramas h2 {text-align: center;}
+
+/* Experiencia y Estudios */
+/* .contenido-exp-est {width: 80%; margin-left: auto; margin-right: auto;}
+.estudios {width: 45%; margin: 1em; float: left;}
+.experiencia {width: 45%; margin: 1em; float: left;} 
+ */
+.fecha {font-size: 0.75em; font-style:italic; }
+.titulos {font-weight: 700;}
+
+
+/* footer */
+.footer {background-color: rgb(202, 209, 226)}
+
+/*  */
+.rojo{
+    width: 300px;
+    height: 300px;
+} 
+.imagenes_productos_servicios{
+    background-color: rgb(202, 209, 226);
+    
+}
+.heder{
+
+    background-color: rgba(77, 100, 167, 0.781);
+
+}
+.medio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.invisible{
+    opacity: 0;
+}
